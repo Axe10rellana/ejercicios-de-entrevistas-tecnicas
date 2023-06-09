@@ -1,0 +1,20 @@
+.list {
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 2rem;
+}
+
+.list:first-child {
+  border-top: 1px solid #000;
+}
+
+.list:nth-child(odd) {
+  background-color: var(--color-14);
+  color: var(--color-01);
+}
+
+.list:nth-child(even) {
+  background-color: var(--color-01);
+  color: var(--color-14);
+}

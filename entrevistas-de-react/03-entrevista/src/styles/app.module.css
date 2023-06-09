@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.input {
+  width: 50%;
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--color-17);
+  outline: none;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  margin-left: 1rem;
+  background-color: var(--color-17);
+  color: var(--color-01);
+  font-weight: bold;
+  padding: 0.7rem 1rem;
+  border: none;
+}
+
+.delete {
+  margin-left: 1rem;
+  background-color: var(--color-11);
+  color: var(--color-01);
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}

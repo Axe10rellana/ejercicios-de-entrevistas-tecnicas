@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.input {
+  width: 50%;
+  padding: 0.5rem 0;
+  outline: none;
+  font-size: 2rem;
+  color: var(--color-17);
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.sale {
+  color: var(--color-01);
+  background-color: var(--color-17);
+}
+
+.fav {
+  border: 3px solid var(--color-12);
+}
+
+.favAndSale {
+  color: var(--color-01);
+  background-color: var(--color-17);
+  border: 3px solid var(--color-12);
+}

@@ -1,0 +1,40 @@
+/* CUSTOM PROPERTIES */
+:root {
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --font: "Raleway", sans-serif;
+}
+
+/* RESET */
+html {
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+[id] {
+  scroll-margin-top: 2ex;
+}
+
+/* Estilos de la pagina */

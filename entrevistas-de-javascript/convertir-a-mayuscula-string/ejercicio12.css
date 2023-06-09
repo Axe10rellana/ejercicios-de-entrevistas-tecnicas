@@ -1,0 +1,15 @@
+h1,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.user-message {
+}
